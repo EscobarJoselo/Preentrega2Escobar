@@ -117,7 +117,7 @@ header a:hover{
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)),
-    url("/images/backgroundppal.jpeg");
+    url("./images/backgroundppal.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -185,7 +185,7 @@ h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),
-     url("/images/instalaciones.jpeg");
+     url("./images/instalaciones.jpeg");
       
  }
 
@@ -194,7 +194,7 @@ h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),
-    url("/images/desarrollo.jpeg");
+    url("./images/desarrollo.jpeg");
     
    
  }
@@ -204,7 +204,7 @@ h1{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),
-    url("/images/backup2.jpeg");
+    url("./images/backup2.jpeg");
  }
     
 /* estilo blog */
