@@ -215,14 +215,18 @@ h1{
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),
-        url("../images/blooog.jpeg");
+    ), url("../images/blooog.jpeg");
 }
 
 #blog .contenedor {
     text-align: center;
-    padding: 200px 12px;
+    padding: 200px 12px 0px;
+    margin-top: 0px;
   
+}
+
+#blog .contenedor-blog{
+   padding-bottom: 1px;
 }
 
 #blog h2{
