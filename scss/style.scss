@@ -135,77 +135,77 @@ h1{
     text-align: center;
     padding: 200px 12px;
 
- }
+}
 
- #nosotros h2{
+#nosotros h2{
     font-size: 400%;
- }
+}
 
- #nosotros p{
+#nosotros p{
     font-size: 2em;
- }
+}
 
  /* ........estilo section servicios........ */
 
- #servicios {
+#servicios {
     background-color: rgb(30, 30, 30);
     color: aliceblue;
     text-align: center;
- }
+}
 
- #servicios .secciones{
+#servicios .secciones{
     background-position: center center;
     background-size: cover;
     padding: 50px;
     margin: 20px;
     border-radius: 15px;
- }
+}
 
- #servicios .contenedor{
+#servicios .contenedor{
     padding: 100px 10px;
     
- }
+}
 
- #servicios h2{
+#servicios h2{
     margin-top: 0;
     font-size: 4em;
- }
+}
 
- #servicios h3{
+#servicios h3{
     font-size: 2em;
- }
+}
 
- #servicios p{
+#servicios p{
     display: none;
     font-size: 1em;
- }
+}
 
- .secciones:first-child{ 
+.secciones:first-child{ 
     background-image:  linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),
-     url("../images/instalaciones.jpeg");
-      
- }
+    url("../images/instalaciones.jpeg");
 
- .secciones:nth-child(2){
+}
+
+.secciones:nth-child(2){
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),
     url("../images/desarrollo.jpeg");
     
-   
- }
 
- .secciones:last-child{
+}
+
+.secciones:last-child{
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),
     url("../images/backup2.jpeg");
- }
+}
     
 /* ........estilo blog........... */
 
@@ -222,11 +222,11 @@ h1{
     text-align: center;
     padding: 200px 12px;
     margin-top: 0px;
-  
+
 }
 
 #blog .contenedor-blog{
-   padding-bottom: 1px;
+padding-bottom: 1px;
 }
 
 #blog h2{
@@ -371,7 +371,7 @@ footer .contenedor{
 #servicios p{
     display: block;
     margin-bottom: 30px;
-   
+
 }
 
 #servicios h3{
@@ -380,7 +380,7 @@ footer .contenedor{
 
 #servicios .secciones{
     padding: 15px;
-   
+
 }
 
 /* .......estilo seccion blog...... */
