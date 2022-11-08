@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Joselo</h1> <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EscobarJoselo/Proyecto-Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EscobarJoselo/Proyecto-Final/issues"
+  },
+  "homepage": "https://github.com/EscobarJoselo/Proyecto-Final#readme"
+}
