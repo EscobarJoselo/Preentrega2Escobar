@@ -1,0 +1,25 @@
+/* ........estilo contacto......... */
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: aliceblue;
+    height: 80vh;
+}
+
+#contacto p{
+    font-size: 2em;
+}
+
+.contenedor-pie h6{
+    color: darksalmon;
+    text-decoration: none;
+}
+
+#contacto h2{
+    font-size: 9vw;
+}

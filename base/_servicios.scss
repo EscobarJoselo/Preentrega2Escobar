@@ -1,0 +1,61 @@
+/* ........estilo section servicios........ */
+
+#servicios {
+    background-color: rgb(30, 30, 30);
+    color: aliceblue;
+    text-align: center;
+}
+
+#servicios .secciones{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#servicios .contenedor{
+    padding: 100px 10px;
+    
+}
+
+#servicios h2{
+    margin-top: 0;
+    font-size: 4em;
+}
+
+#servicios h3{
+    font-size: 2em;
+}
+
+#servicios p{
+    display: none;
+    font-size: 1em;
+}
+
+.secciones:first-child{ 
+    background-image:  linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("../images/instalaciones.jpeg");
+
+}
+
+.secciones:nth-child(2){
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("../images/desarrollo.jpeg");
+    
+
+}
+
+.secciones:last-child{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("../images/backup2.jpeg");
+}

@@ -1,0 +1,28 @@
+/* ......estilo Footer.......... */
+
+footer .iconos a i{
+    display: flex;
+    justify-content: center;
+}
+
+footer .iconos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .contenedor{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}

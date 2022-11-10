@@ -1,0 +1,47 @@
+/* ........estilo blog........... */
+
+#blog{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("../images/blooog.jpeg");
+}
+
+#blog .contenedor {
+    text-align: center;
+    padding: 200px 12px;
+    margin-top: 0px;
+
+}
+
+#blog .contenedor-blog{
+padding-bottom: 1px;
+}
+
+#blog h2{
+    color: white;
+    margin-top: 0px;
+    font-size: 3em;
+    padding: 150px 10px;
+    text-align: center;
+}
+
+#blog li{
+    margin: 15px 0px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+#blog p{
+    color: white;
+}
+
+#blog a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: fantasy;
+
+}
