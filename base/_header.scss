@@ -1,9 +1,8 @@
 /* ........estilo header.......... */
 
-.header{
+header {
     background-color: beige;
-}
-.header{
+
     @media (min-width:720px){
         header {
             position: fixed;
@@ -20,7 +19,7 @@
         }
         }
 }
-.header .logo{
+header .logo{
 
     margin: 0;
     padding: 25px 30px ;
@@ -31,7 +30,7 @@
     text-shadow: 4px 4px 4px #aaa;
 }
 
-#header .contenedor-logo{
+header .contenedor-logo{
     display: flex;
     flex-direction: column;
     align-items: center; 

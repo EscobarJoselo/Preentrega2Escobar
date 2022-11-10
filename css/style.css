@@ -43,6 +43,61 @@ button:hover {
   margin: auto;
 }
 
+/* ........estilo header.......... */
+header {
+  background-color: beige;
+}
+@media (min-width: 720px) {
+  header header {
+    position: fixed;
+    width: 100%;
+  }
+  header header .contenedor-logo {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+}
+
+header .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: crimson;
+  font-size: 3em;
+  font-family: "Tangerine", serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+header .contenedor-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(1, 25, 25);
+  font-family: "Playfair Display", serif;
+}
+
+header a:hover {
+  color: chartreuse;
+}
+
 #cuerpo-principal {
   display: flex;
   align-items: center;
@@ -61,17 +116,139 @@ h1 {
   font-family: "Playfair Display", serif;
 }
 
+/* ........estilo section nosotros......... */
+#nosotros .contenedor {
+  text-align: center;
+  padding: 200px 12px;
+}
+@media (min-width: 720px) {
+  #nosotros .contenedor #nosotros .contenedor {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #nosotros .contenedor #nosotros ul {
+    margin-left: 20px;
+  }
+  #nosotros .contenedor #nosotros .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: left;
+    padding-left: 30px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+  #nosotros .contenedor #img-contenedor {
+    background-image: url(/images/rh.jpeg);
+    background-size: 500px 400px;
+    background-position: calc(100vw - 550px) 80px;
+    background-repeat: no-repeat;
+  }
+  #nosotros .contenedor #nosotros h2 {
+    margin-top: 0px;
+  }
+}
+
+#nosotros h2 {
+  font-size: 400%;
+}
+
+#nosotros p {
+  font-size: 2em;
+}
+
+/* ........estilo section servicios........ */
+#servicios {
+  background-color: rgb(30, 30, 30);
+  color: aliceblue;
+  text-align: center;
+}
+@media (min-width: 720px) {
+  #servicios .services {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#servicios .secciones {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+@media (min-width: 720px) {
+  #servicios .secciones {
+    padding: 15px;
+  }
+}
+
+#servicios .contenedor {
+  padding: 100px 10px;
+}
+
+#servicios h2 {
+  margin-top: 0;
+  font-size: 4em;
+}
+
+#servicios h3 {
+  font-size: 2em;
+}
+@media (min-width: 720px) {
+  #servicios h3 {
+    margin-top: 0px;
+  }
+}
+
+#servicios p {
+  display: none;
+  font-size: 1em;
+}
+@media (min-width: 720px) {
+  #servicios p {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
+.secciones:first-child {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/instalaciones.jpeg");
+}
+
+.secciones:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/desarrollo.jpeg");
+}
+
+.secciones:last-child {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/backup2.jpeg");
+}
+
 /* ........estilo blog........... */
 #blog {
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/blooog.jpeg");
 }
+@media (min-width: 720px) {
+  #blog {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/blogg.jpeg);
+    background-size: 500px 400px;
+    background-position: calc(100vw - 700px) 150px;
+    color: black;
+  }
+}
 
 #blog .contenedor {
   text-align: center;
   padding: 200px 12px;
   margin-top: 0px;
+}
+@media (min-width: 720px) {
+  #blog .contenedor {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 #blog .contenedor-blog {
@@ -85,6 +262,11 @@ h1 {
   padding: 150px 10px;
   text-align: center;
 }
+@media (min-width: 720px) {
+  #blog h2 {
+    color: aliceblue;
+  }
+}
 
 #blog li {
   margin: 15px 0px;
@@ -95,11 +277,99 @@ h1 {
 #blog p {
   color: white;
 }
+@media (min-width: 720px) {
+  #blog p {
+    color: rgb(216, 162, 134);
+    font-size: 2em;
+  }
+}
 
 #blog a {
   text-decoration: none;
   color: whitesmoke;
   font-family: fantasy;
+}
+@media (min-width: 720px) {
+  #blog a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: azure;
+  }
+}
+
+/* ........estilo contacto......... */
+#contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: aliceblue;
+  height: 80vh;
+}
+@media (min-width: 720px) {
+  #contacto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/redes.png);
+    background-size: cover;
+  }
+}
+
+#contacto p {
+  font-size: 2em;
+}
+
+.contenedor-pie h6 {
+  color: darksalmon;
+  text-decoration: none;
+}
+@media (min-width: 720px) {
+  .contenedor-pie h6 {
+    font-size: 1em;
+  }
+}
+
+#contacto h2 {
+  font-size: 9vw;
+}
+@media (min-width: 720px) {
+  #contacto h2 {
+    font-size: 3em;
+  }
+}
+
+/* ......estilo Footer.......... */
+footer .iconos a i {
+  display: flex;
+  justify-content: center;
+}
+
+footer .iconos {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 0;
+  padding: 12px;
+  color: rgb(100, 100, 100);
+}
+
+footer .contenedor {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media (min-width: 720px) {
+  footer .contenedor {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 * {
