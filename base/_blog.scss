@@ -7,6 +7,17 @@
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ), url("../images/blooog.jpeg");
+
+    @media (min-width:720px){
+        background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(/images/blogg.jpeg);
+    background-size: 500px 400px;
+    background-position: calc(100vw - 700px) 150px;
+    color: black;
+    }
 }
 
 #blog .contenedor {
@@ -14,6 +25,10 @@
     padding: 200px 12px;
     margin-top: 0px;
 
+    @media (min-width:720px){
+        display: flex;
+        justify-content: center;
+    }
 }
 
 #blog .contenedor-blog{
@@ -26,6 +41,10 @@ padding-bottom: 1px;
     font-size: 3em;
     padding: 150px 10px;
     text-align: center;
+
+    @media (min-width:720px){
+        color: aliceblue;
+    }
 }
 
 #blog li{
@@ -37,11 +56,23 @@ padding-bottom: 1px;
 
 #blog p{
     color: white;
+
+    @media (min-width:720px){
+        color: rgb(216, 162, 134);
+        font-size: 2em;
+    }
 }
 
 #blog a{
     text-decoration: none;
     color: whitesmoke;
     font-family: fantasy;
+
+    @media (min-width:720px){
+        display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: azure;
+    }
 
 }

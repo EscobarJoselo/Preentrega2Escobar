@@ -5,6 +5,38 @@
     text-align: center;
     padding: 200px 12px;
 
+    @media (min-width:720px){
+        #nosotros .contenedor{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    
+        #nosotros ul{
+            margin-left: 20px;
+        }
+    
+        #nosotros .texto{
+            width: 50%;
+            max-width: 600px;
+            text-align: left;
+            padding-left: 30px;
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+        }
+    
+        #img-contenedor{
+            background-image: url(/images/rh.jpeg);
+            background-size: 500px 400px;
+            background-position: calc(100vw - 550px) 80px;
+            background-repeat: no-repeat;
+        }
+    
+        #nosotros h2{
+            margin-top: 0px;
+        }
+    }
+
 }
 
 #nosotros h2{

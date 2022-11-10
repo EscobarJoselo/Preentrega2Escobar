@@ -4,6 +4,12 @@
     background-color: rgb(30, 30, 30);
     color: aliceblue;
     text-align: center;
+    .services{
+        @media (min-width:720px){
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
 
 #servicios .secciones{
@@ -12,6 +18,10 @@
     padding: 50px;
     margin: 20px;
     border-radius: 15px;
+
+    @media (min-width:720px){
+        padding: 15px;
+    }
 }
 
 #servicios .contenedor{
@@ -26,11 +36,20 @@
 
 #servicios h3{
     font-size: 2em;
+    @media (min-width:720px){
+        margin-top: 0px;
+    }
 }
 
 #servicios p{
     display: none;
     font-size: 1em;
+
+    @media (min-width:720px){
+        display: block;
+        margin-bottom: 30px;
+    }
+
 }
 
 .secciones:first-child{ 
@@ -58,4 +77,8 @@
         rgba(0,0,0,0.5)
     ),
     url("../images/backup2.jpeg");
+}
+
+@media (min-width:720px){
+
 }

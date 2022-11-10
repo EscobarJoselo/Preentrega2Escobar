@@ -25,4 +25,8 @@ footer .contenedor{
     justify-content: center;
     align-items: flex-end;
 
+    @media (min-width:720px){
+        display: flex;
+    justify-content: center;
+    }
 }

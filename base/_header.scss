@@ -2,6 +2,23 @@
 
 header{
     background-color: beige;
+    @media (min-width:720px){
+        /* .......estilo header....... */
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+    header .contenedor-logo{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    }
 }
 
 header .logo{

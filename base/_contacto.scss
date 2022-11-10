@@ -9,6 +9,15 @@
     background-color: rgb(30, 30, 30);
     color: aliceblue;
     height: 80vh;
+
+    @media (min-width:720px){
+        background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url(/images/redes.png);
+    background-size: cover;
+    }
 }
 
 #contacto p{
@@ -18,8 +27,16 @@
 .contenedor-pie h6{
     color: darksalmon;
     text-decoration: none;
+
+    @media (min-width:720px){
+        font-size: 1em;
+    }
 }
 
 #contacto h2{
     font-size: 9vw;
+
+    @media (min-width:720px){
+        font-size: 3em;
+    }
 }
