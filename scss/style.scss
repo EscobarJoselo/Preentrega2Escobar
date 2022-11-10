@@ -1,6 +1,8 @@
 @import "../base/scroll";
 @import "../base/body";
 @import "../Componentes/listas";
+@import "../base/button";
+@import "../base/contenedores";
 
 
 
@@ -25,40 +27,6 @@ p{ font-size: 1em;
 }
 ul{ list-style: none;}
 
-/*........ estilo botones....... */
-
-button{
-    font-size: 1em;
-    font-family: 'EB Garamond', serif;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 1px solid rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: black;
-    background-color: darkgray;
-    padding: 5px 10px;
-}
-
-button:hover{
-    background-color: rgb(240, 242, 243);
-}
-
-/* ........estilo de contenedores .......*/
-
-.contenedor {
-    max-width: 1400px;
-    margin: auto;
-}
-
-.contenedor-blog{
-    max-width: 1400px;
-    margin: auto;
-}
-
-.contenedor-pie{
-    max-width: 1400px;
-    margin: auto;
-}
 
 /* ........estilo header.......... */
 
